@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+	xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
+	version="4.0">
+	<display-name>bb</display-name>
+	<welcome-file-list>
+		<welcome-file>index.html</welcome-file>
+		<welcome-file>index.htm</welcome-file>
+		<welcome-file>index.jsp</welcome-file>
+		<welcome-file>default.html</welcome-file>
+		<welcome-file>default.htm</welcome-file>
+		<welcome-file>default.jsp</welcome-file>
+	</welcome-file-list>
+
+
+
+	<!-- 1. jsp에서 서블릿 mytest로 이동 -->
+	<!-- <servlet> <servlet-name>MyServlet</servlet-name> <servlet-class>com.test.MyTest</servlet-class> 
+		</servlet> <servlet-mapping> <servlet-name>MyServlet</servlet-name> <url-pattern>/mytest</url-pattern> 
+		<url-pattern>/aaa</url-pattern> <url-pattern>/bbb</url-pattern> </servlet-mapping> -->
+
+
+<!-- 	<servlet>
+		<servlet-name>MyServlet02</servlet-name>
+		<servlet-class>com.test.MyTest03</servlet-class>
+
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>MyServlet02</servlet-name>
+		<url-pattern>/test02</url-pattern>
+	</servlet-mapping>
+ -->
+
+</web-app>
